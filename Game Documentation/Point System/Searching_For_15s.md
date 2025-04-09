@@ -6,7 +6,7 @@ The number **15 is essential to the game of Cribbage.** You can use the cards in
 
 This was very difficult for me to figure out for some reason, and took me a couple of days, but here is the plan I came up with that ended up working great!
 
-For our demonstration, we are going to use the cards (of any suit) **Ace, 3, 9 and 2**, meaning our values to work with are **1, 3, 9, 2.** The reason we chose this number to work with is because it is a good universal number to work with in cribbage, the sum of all the cards' values add to 15 and there is also a run in there as well to work with later.
+For our demonstration, we are going to use the cards (of any suit) **Ace, 3, 9 and 2**, meaning our values to work with are **1, 3, 9, 2.** The reason we chose these numbers to work with is because they are good universal numbers to work with in cribbage, the sum of all the cards' values add to 15 and there is also a run in there as well to work with later.
 
 Let's take our numbers and lay them out like this:
 
@@ -20,7 +20,7 @@ Check if the first possible group with the ```a```th number:
 
 **<ins>1</ins><sup>```i```th</sup>   <ins>3</ins><sup>```a```th</sup>   9   2**
 
-Check if their sum is 15. Then, check the first possible group with the ```b```th number:
+Check if their sum is 15. Now, unlike finding pairs, we need to check the next possible group, not pair, meaning we need to check the first possible group with the ```b```th number:
 
 **<ins>1</ins><sup>```i```th</sup>   <ins>3</ins><sup>```a```th</sup>   <ins>9</ins><sup>```b```th</sup>   2**
 
